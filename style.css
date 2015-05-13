@@ -1,37 +1,186 @@
-*{
-	color: gray;
-	margin: 20 8 8 8;
-}
-
-html{
-	width: 800px;
-	margin: auto;
-	padding: 0;
+html{	
+	background-color: #dddddd;
 }
 
 body{
+	margin: 0;
+	background-color: #dddddd;
 }
 
 h1{
-	color: #ffffff;
+	font-size: 4vh;
 }
 
-h2{
-
-}
-
-img{
-	display: block;
-	width: 100px;
-	height: 60px;
-}
-
-section{
+.navBar{
+	padding: 5px;
+	background-color: #555555;
+	overflow: auto;
+	position: fixed;
 	width: 100%;
-	padding: 20px;
-	background-color: rgba(0, 0, 255, 0.3);
 }
 
-p{
+.divNavBarIcons{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.linkedinIcon{
+	width: 20px;
+	height: 20px;
+	float: right;
+	padding-right: 20px;
+}
+
+.blogIcon{
+	width: 20px;
+	height: 20px;
+	float: right;
+	padding-right: 10px;
+}
+
+.fullName, .puesto{
+	color: #555555;
+ 	margin: 0px;
+ 	text-align: left;
+ 	padding: 0px 0px 10px 0px;
+}
+
+.ubicacion{
+	color: #555555;
+ 	margin: 0px;
+ 	text-align: left;
+ 	padding: 20px 0px 20px 0px;
+}
+
+.education, .job{
+	color: #555555;
+ 	margin: 0px;
+ 	text-align: left;
+ 	padding: 5px 0px 0px 0px;
+}
+
+.eduIcon, .currJobIcon{
+	display: inline;
+	width: 20px;
+	height: 20px;
+}
+
+.flag{
+	display: inline;
+	width: 36px;
+	height: 20px;
+}
+
+
+
+
+
+.photoProfile{
+	display: inline;
+}
+
+.mainContent{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #dddddd;
+}
+
+.footer{
+	background-color: #dddddd;
+	padding: 1780px 0px 100px 0px;
+}
+
+
+
+.iconPhone, .iconMail{
+	width: 20px;
+	height: 20px;
+}
+
+.divPresentationBox{
+	border: solid;
+	border-width: 1px 0px 1px 1px;
+	border-color: #dddddd;
+	width: 30%;
+	float: left;
+	background-color: #eeeeee;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 0 auto;
+	height: 250px;
+}
+
+.divFooter{
+	border: solid;
+	border-width: 1px 0px 1px 1px;
+	border-color: #dddddd;
+	width: 100%;
+	float: left;
+	background-color: #eeeeee;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 0 auto;
+	height: 50px;
+}
+
+.profileText{
+	border: solid;
+	border-width: 1px 1px 1px 0px;
+	border-color: #dddddd;
+	width: 70%;
+	float: left;
+	background-color: #eeeeee;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 0 auto;
+	height: 250px;
+
+}
+
+.concept{
+	color: #555555;
+	border: solid;
+	border-width: 3px 0px 0px 0px;
+	border-color: #dddddd;
+	width: 30%;
+	float: left;
+	background-color: #eeeeee;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 0 auto;
+	height: 200px;
+}
+
+.details{
+	color: #333333;
+	border: solid;
+	border-width: 3px 0px 0px 0px;
+	border-color: #dddddd;
+	width: 70%;
+	float: left;
+	background-color: #eeeeee;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 0 auto;
+	height: 200px;
+}
+
+
+.box{
+	color: #333333;
+	border: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: #dddddd;
+	width: 25%;
+	float: left;
+	background-color: #eeeeee;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.justify{
+	text-align: justify;
 }
