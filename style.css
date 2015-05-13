@@ -39,6 +39,46 @@ h1{
 	padding-right: 10px;
 }
 
+.mainContent{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	background-color: #dddddd;
+}
+
+.divPresentationBox{
+	width: 100%;
+	height: 300px;
+	float: left;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.divProfilePhoto{
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 0 auto;
+
+}
+
+.divProfileText{
+	width: 70%;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 0 auto;
+
+}
+
+.photoProfile{
+
+}
+
 .fullName, .puesto{
 	color: #555555;
  	margin: 0px;
@@ -53,6 +93,11 @@ h1{
  	padding: 20px 0px 20px 0px;
 }
 
+.flag{
+	width: 36px;
+	height: 20px;
+}
+
 .education, .job{
 	color: #555555;
  	margin: 0px;
@@ -60,32 +105,32 @@ h1{
  	padding: 5px 0px 0px 0px;
 }
 
-.eduIcon, .currJobIcon{
+.eduIcon, .jobIcon{
 	display: inline;
 	width: 20px;
 	height: 20px;
 }
 
-.flag{
-	display: inline;
-	width: 36px;
-	height: 20px;
+.concept{
+	color: #555555;
+	width: 30%;
+	height: 200px;
+	float: left;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	padding: 40px 0 0 20px;
+	margin: 20px auto;
 }
 
-
-
-
-
-.photoProfile{
-	display: inline;
-}
-
-.mainContent{
-	width: 1000px;
-	margin: 0 auto;
-	padding: 30px 0 0 0;
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: #dddddd;
+.details{
+	color: #333333;
+	width: 70%;
+	height: 200px;
+	float: left;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	padding: 20px 60px 0 0;
+	margin: 20px auto;
 }
 
 .footer{
@@ -93,81 +138,20 @@ h1{
 	padding: 1780px 0px 100px 0px;
 }
 
-
-
-.iconPhone, .iconMail{
-	width: 20px;
-	height: 20px;
-}
-
-.divPresentationBox{
-	border: solid;
-	border-width: 1px 0px 1px 1px;
-	border-color: #dddddd;
-	width: 30%;
-	float: left;
-	background-color: #eeeeee;
-	box-sizing: border-box;
-	padding: 10px;
-	margin: 0 auto;
-	height: 250px;
-}
-
 .divFooter{
-	border: solid;
-	border-width: 1px 0px 1px 1px;
-	border-color: #dddddd;
 	width: 100%;
 	float: left;
-	background-color: #eeeeee;
+	background-color: #ffffff;
 	box-sizing: border-box;
 	padding: 10px;
 	margin: 0 auto;
 	height: 50px;
 }
 
-.profileText{
-	border: solid;
-	border-width: 1px 1px 1px 0px;
-	border-color: #dddddd;
-	width: 70%;
-	float: left;
-	background-color: #eeeeee;
-	box-sizing: border-box;
-	padding: 10px;
-	margin: 0 auto;
-	height: 250px;
-
+.iconPhone, .iconMail{
+	width: 20px;
+	height: 20px;
 }
-
-.concept{
-	color: #555555;
-	border: solid;
-	border-width: 3px 0px 0px 0px;
-	border-color: #dddddd;
-	width: 30%;
-	float: left;
-	background-color: #eeeeee;
-	box-sizing: border-box;
-	padding: 10px;
-	margin: 0 auto;
-	height: 200px;
-}
-
-.details{
-	color: #333333;
-	border: solid;
-	border-width: 3px 0px 0px 0px;
-	border-color: #dddddd;
-	width: 70%;
-	float: left;
-	background-color: #eeeeee;
-	box-sizing: border-box;
-	padding: 10px;
-	margin: 0 auto;
-	height: 200px;
-}
-
 
 .box{
 	color: #333333;
@@ -176,11 +160,7 @@ h1{
 	border-color: #dddddd;
 	width: 25%;
 	float: left;
-	background-color: #eeeeee;
+	background-color: #ffffff;
 	box-sizing: border-box;
 	padding: 20px;
-}
-
-.justify{
-	text-align: justify;
 }
